@@ -1,0 +1,2 @@
+About the Project:
+This project is an Internship Application Form web page built using semantic HTML5 and styled with CSS3. It features a complete multi-section form that collects applicant details, including personal information, education preferences, skill selections, file upload capability, and salary expectations using an interactive range slider. The layout is designed to provide a clean and user-friendly interface for web application submission.
