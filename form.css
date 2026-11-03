@@ -1,0 +1,33 @@
+*{
+    margin: 10px;
+    padding: 2px;
+}
+body{
+    background-color:rgb(163, 163, 165);
+    font-family: Arial, sans-serif;
+}
+.input{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    width: 90%;
+}
+.input1{
+    background-color:rgb(95, 169, 198);
+    border: 2px solid black;
+}
+h3{
+    text-decoration: underline;
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#date{
+    width: 265px;
+}
+#time{
+    width: 253px;
+}
