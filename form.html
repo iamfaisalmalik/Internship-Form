@@ -44,7 +44,66 @@
 
         <label for="other">Other/Prefer not to say</label><br><br><br><br>
 
-        
+        <fieldset>
+            <legend>EDUCATION</legend><br><br>
+
+            <label for="Course" >Course *</label><br>
+            <select class="input" id="Course" name="Course" required>
+                <option value="">Select Course</option>
+                <option value="btechCSE">B.Tech Computer Science & Engineering</option>
+                <option value="btechEE">B.Tech Electrical Engineering</option>
+                <option value="btechME">B.Tech Mechanical Engineering</option>
+                <option value="other">Other</option>
+
+
+            </select><br><br>
+            <label for="prefCity" >Preferred City </label><br>
+            <select class="input" id="prefCity" name="prefCity">
+                <option value="">Select City</option>
+                <option value="bareilly">Bareilly</option>
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+
+            <label for="skills">Skills:</label>
+            <input type="checkbox" id="html" name="skills" value="html">
+
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="skills" value="css">
+
+            <label for="css">CSS</label>
+            <input type="checkbox" id="javascript" name="skills" value="javascript">
+
+            <label for="javascript">JavaScript</label><br><br>
+
+            <h3>Upload And Extras</h3>
+
+            <label for="date">Avalible from</label>
+            <input class="input" type="date" id="date" name="date"><br><br>
+
+            <label for="time">Interview Time</label>
+            <input class="input" type="time" id="time" name="time"><br><br>
+
+            <label for="resume">Resume*</label><br>
+            <input class="input" type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+
+            <label for="stipend">Expected Monthly Stipend *:  <span id="stipend-value"></span></label><br>
+            <input class="input" type="range" id="stipend" name="stipend" required min="0" max="100000" step="1000" value="10000"
+             oninput="document.getElementById('stipend-value').innerText = '₹' + Number(this.value).toLocaleString('en-IN')"><br><br>
+
+             <label for="colour">Favourite Colour</label>
+             <input  type="color" id="colour" name="colour"><br><br>
+
+             <label for="Reason">Why do you want to join us? *</label><br>
+             <textarea class="input" id="Reason" name="Reason" required rows="4" cols="100" minlength="50" maxlength="500"></textarea><br><br>
+
+             <input class="input1" type="submit" value="Submit">
+             <input class="input1" type="reset" value="Reset Form">
+
+        </fieldset>
 
     </fieldset>
     </form>
